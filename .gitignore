@@ -1,0 +1,5 @@
+/assets/images/*
+
+!/assets/images/_home
+!/assets/images/_sobre
+!/assets/images/_blog
