@@ -210,3 +210,21 @@ ul.contactus-1-info-list i {
     color: var(--theme-color);
     margin-right: 4px;
 }
+
+.about-widget-1-logo {
+    max-width: 160px;
+}
+
+
+
+
+/* SIDEBAR ///// */
+.hidden-sidebar .logo,
+.mobile-menu .nav-logo {
+    max-width: 200px;
+}
+
+/* logo topo menu */
+.main-header .header-upper .logo-box .logo  img {
+    height: 47px;
+}
