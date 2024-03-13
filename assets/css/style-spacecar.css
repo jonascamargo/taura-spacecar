@@ -34,6 +34,7 @@ h2.page-title,
 .services-single .inner-box h2,
 .banner-section .content-box h1,
 h2.services-1-title,
+.widget-title,
 .cta-1-title /* titulo da barra vermelha */ {
     font-weight: normal;
 }
@@ -178,4 +179,34 @@ section.blog-car-section {
 .contact-form input,
 .contact-form textarea {
     border-color: silver;
+}
+
+ul.contactus-1-info-list li {
+    padding-left: 40px;
+}
+
+div[class^="contactus-"] li a {
+    color: #1e1e1e;
+}
+div[class^="contactus-"] li a:hover {
+    color: var(--theme-color);
+}
+
+ul.contactus-1-info-list i {
+    font-size: 25px;
+    font-weight: 500;
+    top: 8px;
+}
+
+
+
+ /* FOOTER ///// */
+ .contact-widget-1-label {
+    padding-bottom: 5px;
+}
+
+.contact-widget-1-label .fal {
+    font-size: 20px;
+    color: var(--theme-color);
+    margin-right: 4px;
 }
