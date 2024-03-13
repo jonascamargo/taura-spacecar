@@ -70,6 +70,12 @@ section.blog-car-section {
 }
 
 
+.cta-1-section .auto-container {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
 /* barra preta */
 .blackbar {
     text-align: center;
@@ -78,8 +84,31 @@ section.blog-car-section {
     padding-bottom: 40px;
 }
 
-.cta-1-title {
-    padding-bottom: 30x;
+.blackbar .cta-1-title {
+    padding-bottom: 40px;
+}
+
+.car-logo-list .col-lg {
+    opacity: .4;
+    transition: opacity .5s;
+}
+.car-logo-list .col-lg:hover {
+    opacity: 1;
+}
+
+.car-logo-list img {
+    max-width: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    .row.car-logo-list {
+        justify-content: center;
+    }
+    .car-logo-list .col-lg {
+        width: 20%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 
