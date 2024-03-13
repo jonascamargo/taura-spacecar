@@ -157,6 +157,10 @@ section.blog-car-section {
 }
 
 
+.services-1-block:hover .services-1-icon {
+    color: #fff;
+}
+
 
 /* BLOG ///// */
 .news-block-two .lower-content,
