@@ -27,13 +27,13 @@
     <!-- estilo SpaceCar -->
     <link href="assets/css/style-spacecar.css" rel="stylesheet">
 
-    <title>SPACECAR - Sobre</title>
+    <title>SPACECAR - Contato</title>
 </head>
 
 
 <body>
 
-    <div class="page-wrapper">
+    <div class="page-wrapper bg-silver">
 
         <div class="loader-wrap">
             <div class="preloader"><div class="preloader-close">Fechar Loader</div></div>
@@ -236,17 +236,117 @@
         <!-- capa da pagina -->
         <section class="page-title-sectition" style="background-image:url(assets/images/_sobre/capa.jpg)">
             <div class="auto-container">
-                <h2 class="page-title">Sobre nós</h2>
-
-                <ul class="page-breadcrumb">
-                    <li><a href="index.html">home</a></li>
-                    <li>Serviços</li>
-                </ul>
+                <h2 class="page-title">Contato</h2>
             </div>
         </section>
 
 
+        <!--Contact Section-->
+        <section class="contactus-1-section">
+            <div class="auto-container">
 
+                <div class="sec-title-area mb_50">
+                    <div class="sub-title"></div>
+                    <h2 class="sec-title">Deixe-nos uma mensagem</h2>
+                </div>
+
+                <div class="row clearfix">
+                    <!--Form Column-->
+                    <div class="form-column col-lg-7">
+                        <div class="inner-column">
+                            <!--Contact Form-->
+                            <div class="contact-form">
+                                <form method="post" action="sendemail.php" id="contact-form">
+                                    <div class="row clearfix">
+                                        <div class="form-group col-md-12">
+                                            <input type="text" name="form_name" value="" placeholder="Seu Nome" required>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-12">
+                                            <input type="text" name="email" value="" placeholder="Seu E-mail" required>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-12">
+                                            <input type="text" name="form_subject" value="" placeholder="Assunto" required>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-12">
+                                            <textarea name="form_message" placeholder="Mensagem"></textarea>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-12">
+                                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                            <button class="btn-1" type="submit" data-loading-text="Please wait...">Enviar agora <i class="flaticon-right-arrow-1"></i><span></span></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!--End Contact Form-->
+                        </div>
+                    </div>
+                    
+                    <!--Info Column-->
+                    <div class="col-lg-5">
+                        <div class="contactus-1-inner-column">
+
+                            <h4 class="contactus-1-info-title">Nosso Endereço</h4>
+                            <ul class="contactus-1-info-list">
+                                <li>
+                                    <i class="fal fa-map-marker-alt"></i>
+                                    <span>Endereço:</span>
+                                    <a href="https://maps.app.goo.gl/3K2N1HY3dUbD2hT57" target="_blank" rel="noopener noreferrer">
+                                        Avenida Rio Branco, 3866<br>
+                                        Bairro Ana Rech - Caxias do Sul/RS<br>
+                                        95060 - 145
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <i class="fal fa-envelope"></i>
+                                    <span>E-mail:</span>
+                                    <a href="mailto:contato@mecanicaspacecar.com.br">contato@mecanicaspacecar.com.br</a>
+                                </li>
+
+                                <li>
+                                    <i class="fal fa-phone"></i><span>Fone/whatsApp:</span>
+                                    <a href="tel:5432831105">(54) 3283.1105</a> - 
+                                    <a href="tel:54999145795">(54) 99914.5795</a>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <h4 class="contactus-1-info-title">Horário de Atendimento</h4>
+                            <ul class="contactus-1-info-list">
+                                <li>
+                                    <i class="fal fa-clock"></i><span>Seg a Sex</span>
+                                    8h às 11h50 - 13h30 às 18h30
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--End Contact Section-->
+
+
+        <!-- <div class="auto-container"><div class="sec-divider-2"></div></div> -->
+        <hr class="separador">
+
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="auto-container">
+
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3071.2910802067827!2d90.45905169331171!3d23.691532202989123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1577214205224!5m2!1sen!2sbd" width="600" height="390" style="border:0; width: 100%" allowfullscreen=""></iframe>
+                </div>
+
+            </div>
+        </section>
         
 
 
@@ -255,6 +355,7 @@
         <!-- barra red -->
         <div class="cta-1-section theme-bg barra-red">
             <div class="auto-container">
+
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="features-1-image"><img src="assets/images/_home/carro-vermelho.png" alt=""></div>
@@ -271,6 +372,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 

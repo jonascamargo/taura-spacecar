@@ -1,0 +1,68 @@
+.bg-silver {
+    background: #e8e8e8;
+}
+
+
+.main-header.header-style-three {
+    background-color: white;
+}
+
+
+.separador {
+    padding: 0;
+    margin: 0;
+
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+
+h4.contactus-1-info-title,
+h2.sec-title,
+.news-block-two h3,
+h2.page-title,
+.services-single .inner-box h2,
+.banner-section .content-box h1,
+h2.services-1-title,
+.cta-1-title /* titulo da barra vermelha */ {
+    font-weight: normal;
+}
+
+
+/* HOME /////  */
+h2.services-1-title {
+    min-height: 60px;
+}
+
+
+.cta-1-section.theme-bg.barra-red {
+    background-color: none !important;
+    padding-top: 60px;
+}
+
+.cta-1-section.barra-red .auto-container {
+    background-color: var(--theme-color);
+}
+
+.cta-1-section.barra-red .auto-container .row {
+    align-items: center;
+}
+
+.cta-1-section.barra-red .features-1-image img {
+    position: relative;
+    margin-top: -80px;
+}
+
+.cta-1-section.barra-red .auto-container .col-lg.row {
+    padding: 40px 0 20px 0;
+}
+
+
+
+/* CONTATO ////// */
+.contact-form input,
+.contact-form textarea {
+    border-color: silver;
+}
