@@ -37,26 +37,47 @@ h2.services-1-title {
 }
 
 
-.cta-1-section.theme-bg.barra-red {
-    background-color: none !important;
-    padding-top: 60px;
+/* barra vermelha */
+.redbar-container {
+    padding-top: 90px;
+    background-color: #e8e8e8;
 }
 
-.cta-1-section.barra-red .auto-container {
+.redbar {
     background-color: var(--theme-color);
 }
 
-.cta-1-section.barra-red .auto-container .row {
+.redbar-container .auto-container {
+    padding-top: 40px;
+    padding-bottom: 30px;
     align-items: center;
 }
 
-.cta-1-section.barra-red .features-1-image img {
-    position: relative;
-    margin-top: -80px;
+.redbar-container .image {
+    min-width: 340px;
+}
+.redbar-container .image img {
+    scale: 1;
+    margin: -130px 0 0 0;
 }
 
-.cta-1-section.barra-red .auto-container .col-lg.row {
-    padding: 40px 0 20px 0;
+.redbar-container .col.row {
+    align-items: center;
+}
+
+.redbar-container .btn-1.s-two {
+    font-size: 26px;
+    color: var(--theme-color);
+}
+.redbar-container .btn-1.s-two:hover {
+    background-color: #000;
+}
+
+@media only screen and (max-width: 991px) {
+    .redbar-container .image,
+    .redbar-container .col.row {
+        text-align: center;
+    }
 }
 
 
